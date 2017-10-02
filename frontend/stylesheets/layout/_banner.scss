@@ -1,0 +1,42 @@
+.banner-section{
+	background: #89898b;
+	text-align: center;
+}
+.banner-content{
+	text-align: center;
+	padding: 150px 0px 150px;
+}
+.banner-description{
+	p{
+		font-family: 'Conv_Roboto-Regular';
+		font-size: 15px;
+		color: #fff;
+	}
+	h1{
+		font-family: 'Conv_Roboto-Light';
+		font-size: 40px;
+		color: #edd822;
+		margin: 0;
+        padding: 15px 0px 90px 0px;
+	}
+}
+.banner-button{
+	padding-bottom: 20px;
+}
+.button-primary{
+	font-family: 'Conv_Roboto-Regular';
+	font-size: 15px;
+	color: #fff;
+	background: none;
+    border: 1px solid #edd822;
+    padding: 20px 78px;
+    outline: none;
+    cursor: pointer;
+}
+.scroll-top{
+	outline: none;
+	i{
+		font-size: 70px;
+		color: #fff;
+	}
+}
