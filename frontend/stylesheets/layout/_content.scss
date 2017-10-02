@@ -181,3 +181,72 @@
         color: #edd822;
     }
 }
+.contact-content{
+    text-align: center;
+    padding: 90px;
+}
+.contact-title{
+    h2{
+        font-family: 'Conv_Roboto-Regular';
+        font-size: 25px;
+        color: #000;
+    }
+}
+.contact-description{
+    p{
+        font-family: 'Conv_Roboto-Regular';
+        font-size: 15px;
+        color: #edd822;
+    }
+}
+.form-contact{
+    padding: 15px 18px;
+}
+.form-text,
+.form-email{
+    min-width: 47%;
+    border: none;
+    background: #ffe600;
+    padding: 10px 10px;
+}
+.form-subject{
+    min-width: 96.5%;;
+    border: none;
+    background: #ffe600;
+    padding: 10px 10px;
+}
+.form-message{
+    min-width: 96.5%;
+    border: none;
+    background: #ffe600;
+    padding: 10px 10px;
+}
+input,
+textarea{
+    font-family: 'Conv_Roboto-Regular';
+    font-size: 15px;
+    color: #fff;
+}
+.form-group{
+    margin: 20px 0px;
+}
+input::placeholder{
+    font-family: 'Conv_Roboto-Regular';
+    font-size: 15px;
+    color: #fff;
+}
+textarea::placeholder{
+    font-family: 'Conv_Roboto-Regular';
+    font-size: 15px;
+    color: #fff;
+}
+.button-send{
+    min-width: 98.5%;
+    border: none;
+    background: #131316;
+    padding: 10px 10px;
+    font-family: 'Conv_Roboto-Regular';
+    font-size: 15px;
+    color: #ffe600;
+    outline: none;
+}

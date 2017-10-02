@@ -1,4 +1,4 @@
-.header-section{
+.section-header{
     border-bottom: 1px solid #edd822;
 }
 .header-content{
@@ -28,5 +28,8 @@
     a:hover{
         border: 1px solid #edd822;
         color: #000;
+    }
+    a:focus{
+        outline: none;
     }
 }
