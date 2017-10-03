@@ -250,3 +250,27 @@ textarea::placeholder{
     color: #ffe600;
     outline: none;
 }
+@media screen and (max-width: 960px){
+    .form-text,
+    .form-email{
+        min-width:  96.5%;
+    }
+    .form-text{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    .about-main{
+        flex-flow: row wrap;
+        justify-content: space-around;
+        padding-top: 30px;
+    }
+    .about-main-items{
+        padding: 15px 0px;
+    }    
+}
+@media screen and (max-width: 600px){
+    .contact-content {
+        padding: 15px;
+    }
+}

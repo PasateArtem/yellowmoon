@@ -6,6 +6,7 @@
     justify-content: space-between;
     padding: 25px 0px;
     align-items: center;
+    position: relative;
 }
 .auth_buttons{
     display: none;
@@ -31,5 +32,62 @@
     }
     a:focus{
         outline: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .header-menu{
+        background-color: none;
+        display: none;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        z-index: 1;
+        background: #fff;
+        width: 100%;
+        text-align: center;
+    }
+    .header-nav{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        padding-top: 0px;
+    }
+    .header-nav-item{
+        display: block;
+        padding: 15px 0px 15px 0;
+        border-bottom: 1px solid #edd822;
+        a{
+            width: 100%;
+            padding-bottom: 0;
+            text-decoration: none;
+        }
+        a:hover{
+            border: none;
+            color: #edd822;
+        }
+    }
+    .auth_buttons {
+        display: block;
+        background-color: #edd822;
+        border: medium none;
+        font-size: 26px;
+        float: right;
+        width: 49px;
+        height: 33px;
+        border-radius: 2px;
+        outline: none;
+        position: relative;
+        top: 0px;
+        .fa{
+            color: #fff;
+        }
+    }
+}
+@media screen and (min-width: 769px){
+    .header-menu{
+        display: block !important;
+    }
+    .header-nav{
+        display: flex;
     }
 }

@@ -26,7 +26,7 @@ requirejs([
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 6,
         infinite: true,
         dots: true
       }
@@ -34,7 +34,7 @@ requirejs([
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 1
+        slidesToShow: 4
       }
     },
     {
