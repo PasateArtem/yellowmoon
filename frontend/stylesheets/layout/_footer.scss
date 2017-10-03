@@ -19,9 +19,13 @@
 	padding-left: 25px;
 	a{
 		text-decoration: none;
+		outline: none;
 		i{
 			color: #fff;
 		}
+	}
+	a:focus{
+		outline: none;
 	}
 }
 .fa-facebook:hover{
@@ -38,4 +42,13 @@
 }
 .fa-youtube:hover{
     color: #bb0000;
+}
+@media screen and (max-width: 500px){
+	.footer-content{
+		flex-direction: column-reverse;
+        align-items: center;
+	}
+	.social-colums{
+		padding: 0px;
+	}
 }

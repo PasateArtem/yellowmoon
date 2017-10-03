@@ -108,19 +108,7 @@
     position: relative;
 }
 .description-images{
-    display: none!important;
-        /* text-align: center; */
-    // position: absolute;
-    // z-index: 1;
-    // top: 9px;
-    // /* left: 0; */
-    // /* bottom: 0; */
-    // width: 270px;
-    // height: 200px;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    // align-content: center;
+    display: none!important;       
 }
 .portfolio-gallery-items:hover .description-images{
     background: #ffeb33;
@@ -249,6 +237,7 @@ textarea::placeholder{
     font-size: 15px;
     color: #ffe600;
     outline: none;
+    cursor: pointer;
 }
 @media screen and (max-width: 960px){
     .form-text,
@@ -260,6 +249,22 @@ textarea::placeholder{
     }
 }
 @media screen and (max-width: 768px){
+    .about-content{
+        padding: 30px 0px;
+    }
+    .quote-content{
+        padding: 90px 0px;
+    }
+    .portfolio-content {
+        padding: 30px 0px;
+    }
+    .portfolio-gallery{
+        padding: 30px 0px 15px 0px;
+    }
+    .clients-content {
+        text-align: center;
+        padding: 30px 0;
+    }
     .about-main{
         flex-flow: row wrap;
         justify-content: space-around;
@@ -272,5 +277,21 @@ textarea::placeholder{
 @media screen and (max-width: 600px){
     .contact-content {
         padding: 15px;
+    }
+    .form-text,
+    .form-email{
+        min-width: 93.5%;
+    }
+    .form-subject{
+        min-width: 93.5%;
+    }
+    .form-message{
+        min-width: 93.5%;
+    }
+    .button-send{
+        min-width: 100%;
+    }
+    .form-group-actions{
+        padding: 5px;
     }
 }

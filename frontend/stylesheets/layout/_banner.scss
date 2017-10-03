@@ -6,6 +6,12 @@
 	text-align: center;
 	padding: 150px 0px 150px;
 }
+.banner-logo{
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+}
 .banner-description{
 	p{
 		font-family: 'Conv_Roboto-Regular';
@@ -38,5 +44,19 @@
 	i{
 		font-size: 70px;
 		color: #fff;
+	}
+}
+@media screen and (max-width: 600px){
+	.banner-content{
+		padding: 50px 0px 50px 0px;
+	}
+	.banner-description{
+		h1{
+			font-size: 32px;
+			padding: 15px 0px 45px 0px;
+		}
+		p{
+			font-size: 13px;
+		}
 	}
 }

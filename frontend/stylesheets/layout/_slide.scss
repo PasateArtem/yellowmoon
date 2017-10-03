@@ -9,3 +9,13 @@
 .clients-slider{
 	padding-top: 80px;
 }
+@media screen and (max-width: 1024px){
+	.slider-item{
+        padding: 0px 25px;
+    }
+}
+@media screen and (max-width: 768px){
+	.clients-slider{
+        padding-top: 30px!important;
+    }
+}
